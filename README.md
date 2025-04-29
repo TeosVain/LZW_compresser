@@ -15,7 +15,8 @@ A Python implementation of LZW (Lempel-Ziv-Welch) algorithm for compressing and 
 2. Enter text to compress (letters + supported punctuation)
 3. Get **byte count** and **byte sequence**
 
-```Example:
+Example:
+```
 pack
 hello world
 23
@@ -27,7 +28,8 @@ hello world
 2. Enter byte count and space-separated bytes
 3. Get original text
 
-```Example:
+Example:
+```
 unpack
 23
 104 101 108 108 111 32 119 111 114 108 100
